@@ -2,11 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Articulo from './Articulo'
+import ArticuloJSX from './Articulo';
+import ArticuloF from './ArticuloF';
+import ArticuloFJSX from './ArticuloF';
+import ArticuloTest from './ArticuloTest';
+import ChuckNorrisJoke from './ApiChuck';
+import Counter from './Counter';
 import reportWebVitals from './reportWebVitals';
+import CoinFlip from './Flip';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Articulo />
+    <ArticuloJSX />
+    <ArticuloF />
+    <ArticuloFJSX />
+    <ArticuloTest />
+    <ArticuloTest />
+    <ArticuloTest />
+    <ChuckNorrisJoke />
+    <Counter></Counter>
+    <CoinFlip></CoinFlip>
     <App />
   </React.StrictMode>
 );
